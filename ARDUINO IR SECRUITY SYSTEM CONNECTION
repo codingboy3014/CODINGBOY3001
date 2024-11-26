@@ -1,0 +1,28 @@
+Components Required:
+Arduino Uno
+IR Sensor Module
+Buzzer
+LED (Optional, for visual alert)
+Resistor (220 ohms for the LED)
+Jumper wires
+Breadboard
+
+
+
+
+Wiring Diagram
+
+:
+IR Sensor Module:
+VCC → Arduino 5V
+GND → Arduino GND
+OUT → Arduino Digital Pin 2
+
+Buzzer:
+Positive (long leg) → Arduino Digital Pin 9 (via resistor, if needed)
+Negative (short leg) → Arduino GND
+
+
+LED (Optional):
+Anode (long leg) → Arduino Digital Pin 10 (via 220-ohm resistor)
+Cathode (short leg) → Arduino GND
